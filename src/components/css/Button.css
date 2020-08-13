@@ -1,0 +1,20 @@
+.Button {
+  background-color: var(--Cyan);
+  border-radius: 28px;
+  border: 1px solid var(--Cyan);
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 18px;
+  padding: 17px 46px;
+  text-decoration: none;
+  width: 100%;
+}
+.Button:hover {
+  background-color: var(--Cyan);
+}
+.Button:active {
+  position: relative;
+  top: 1px;
+}

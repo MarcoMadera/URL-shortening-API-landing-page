@@ -1,0 +1,17 @@
+.Footer {
+  background: var(--Very-Dark-Violet);
+}
+
+.Footer__linkSection {
+  margin: 20px;
+  color: white;
+}
+
+.Footer__linkSection a {
+  display: block;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  color: var(--Gray);
+}

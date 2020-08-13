@@ -1,0 +1,30 @@
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.modal {
+  width: 327px;
+  height: 383px;
+  position: fixed;
+  padding: 23px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--Dark-Violet);
+  border-radius: 8px;
+  transform: translateY(96px);
+}
+
+.modal__container__links a {
+  margin: 16px auto 30px auto;
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}

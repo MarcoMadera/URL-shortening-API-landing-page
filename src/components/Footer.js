@@ -10,19 +10,19 @@ const Footer = () => {
   return (
     <footer className="Footer">
       <Logo fill="rgb(255,255,255)" witdh={120} height={33} />
-      <div className="Features">
+      <div className="Footer__linkSection">
         <h6>Features</h6>
         <a href="/#linkshorter">Link Shortening</a>
         <a href="/#brandedlinks">Branded Links</a>
         <a href="/#analytics">Analytics</a>
       </div>
-      <div className="Resources">
+      <div className="Footer__linkSection">
         <h6>Resources</h6>
         <a href="/#resources">Blog</a>
         <a href="/#developers">Developers</a>
         <a href="/#support">Support</a>
       </div>
-      <div className="Company">
+      <div className="Footer__linkSection">
         <h6>Company</h6>
         <a href="/#about">About</a>
         <a href="/#outteam">Our Team</a>

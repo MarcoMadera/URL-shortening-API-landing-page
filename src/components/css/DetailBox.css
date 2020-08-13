@@ -1,0 +1,33 @@
+.DetailBox {
+  position: relative;
+  margin-bottom: 150px;
+  border-radius: 4px;
+  /* width: 330px; */
+  height: 268px;
+  background: white;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.DetailBox__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: -45px auto 0 auto;
+  width: 90px;
+  height: 90px;
+  background: var(--Very-Dark-Blue);
+  border-radius: 50%;
+}
+.DetailBox__title {
+  padding-top: 60px;
+}
+.DetailBox__desc {
+  padding: 20px 30px 30px 30px;
+  color: var(--Very-Dark-Blue);
+  font-size: 13px;
+  font-weight: 400;
+}

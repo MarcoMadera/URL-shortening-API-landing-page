@@ -1,0 +1,36 @@
+.Shortener {
+  margin: 25px;
+  height: 160px;
+  border-radius: 10px;
+  background: var(--Dark-Violet);
+}
+
+.Shortener__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+
+.Shortener__form input {
+  display: block;
+  height: 48px;
+  line-height: 48px;
+  width: 100%;
+}
+.Shortener__form button {
+  margin: 10px 0;
+  width: 100%;
+  height: 48px;
+  background-color: var(--Cyan);
+  border-radius: 8px;
+  border: 1px solid var(--Cyan);
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 18px;
+  text-decoration: none;
+  width: 100%;
+}
